@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-.flex-container{
+.flex-rosso{
     background-color: red;
     height: 64px;
     display: flex;
@@ -34,4 +34,18 @@
 
 .tre{
     justify-content: flex-end;
+}
+
+.flex-blu{
+    height: 440px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-rosa{
+    height: 280px;
+    width: 72%;
+    background-color: pink;
 }
