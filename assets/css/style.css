@@ -91,3 +91,36 @@
     width: 72%;
     background-color: green;
 }
+
+.flex-foot1 {
+    height: 400px;
+    background-color: grey;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.contact{
+    height: 340px;
+    width: 24%;
+    background-color: brown;
+}
+
+.list{
+    height: 340px;
+    width: 12%;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.flex-foot2 {
+    height: 140px;
+    background-color: grey;
+    padding-left: 14%;
+    padding-right: 14%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
