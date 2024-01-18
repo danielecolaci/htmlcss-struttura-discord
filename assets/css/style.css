@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container{
+    background-color: red;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav{
+    height: 32px;
+    width: 50px;
+    background-color: orange;
+    border: 1px solid black;
+}
+
+.uno, .tre{
+    width: 14%;
+    display: flex;
+    align-items: center;
+}
+
+.due{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tre{
+    justify-content: flex-end;
+}
